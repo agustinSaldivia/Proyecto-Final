@@ -1,0 +1,416 @@
+body {
+	background-color: #b6b0b0 !important;
+	color: #fff;
+	margin: 7px;
+}
+* {
+	font-family: 'BioRhyme', serif;
+	font-size: 18px;
+}
+
+
+
+/* Nav bar Boostrap*/
+.nav-tabs {
+	display:flex;
+	text-align: center;
+	justify-content: center;
+	background-color: #c69af5;
+}
+
+/* Carosel Boostrap */
+.d-block {
+	height: 310px;
+	object-fit: scale-down;
+}
+
+.subtitulo-h3 {
+	position: absolute;
+	background-color: rgb(255, 161, 218);
+	opacity: 0.8;
+} 
+
+/*intruduccion*/
+
+.div-introduccion {
+	padding: 7px;
+}
+
+.valores-container {
+	background-color: #e4d0d0;
+	padding: 9px;
+}
+
+.div-valores {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.ul-valores {
+	background-color: #cfa3a3;
+}
+
+.div-peces {
+	padding: 9px;
+}
+/*presentacion provincias*/
+
+.Section-provincias {
+	background-color: #525252;
+	color: white;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.div-provincias{
+	width: 300px;
+	background-color: #6d6d6d;
+	border-radius: 8px;
+	margin: 3px;
+}
+
+
+.button-provincias {
+	font-size: 13px;
+	padding: 10px 20px;
+	border-radius: 10px;
+	border: 1px solid #000;
+	box-shadow: 2px 2px 10px #000;
+	color: white;
+	background-color: blueviolet;
+}
+
+
+/* Formulario de contacto*/
+
+
+.form-container {
+	width: 100%;
+	margin:auto;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 35px;
+	margin-top: 32px;
+	height: 300px;
+	background-color: #353535;
+}
+.form-contacto {
+	color: #000000;
+	padding: 7px;
+	display: inline-block;
+	width: 100%;
+}
+
+.form {
+	width: 70%;
+	padding: 20px 13px;
+	display: flex;
+	flex-direction: column;
+}
+
+@media screen and (max-width: 642px) {
+	.form-container {
+		display: flex;
+		flex-direction: column;
+		height: 50%;
+	}
+
+	.form{
+		display: block;
+	}
+	
+}
+
+
+
+form textarea {
+		min-height: 140px;
+}
+
+
+
+/* Footer */
+
+.footer-container{
+	background: #0a2e29;
+	color: #f5c5c5f5;
+	display: flex;
+	justify-content: center;
+}
+
+/* SANTA CRUZ */ 
+
+.subtitulo-img-provincia {
+	position: absolute;
+	background-color: rgb(255, 161, 218);
+	opacity: 0.8;
+}
+
+.img-container {
+	display: flex;
+	justify-content: flex-start;
+	object-fit: cover;
+}
+
+.img-item1 {
+	width:80%;
+	height: 275px;
+	object-fit: cover;
+}
+
+.img-item2 {
+	width: 20%;
+	height: 275px;
+	object-fit: scale-down;
+}
+
+/* PRESENTACION SANTA CRUZ */
+
+
+
+.div-importante {
+	background-color: #e67a7a;
+	padding: 8px;
+}
+
+.h4-importante {
+	display: flex;
+	justify-content: center;
+	background-color: #cf2f2f;
+}
+
+
+
+/* LUGARES DE PESCA */ 
+
+.div-lugares {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: #fad5d5;
+}
+
+.ul-lugares {
+	background-color: #f7c1c1;
+	padding: -15px;
+}
+
+
+.img-item-lugares {
+	border-radius: 8px;
+	width: 240px;
+	height: 225px;
+	margin: 3px;
+	border: 2px solid #000;
+	box-shadow: 1px 1px 6px #000;
+	object-fit: cover;
+}
+
+.img-container-lugares {
+	display:grid;
+	grid-template-columns: 
+	repeat(auto-fit,minmax(150px, 1fr));
+	gap: 32px;
+}
+
+
+/* CARTAS BOOSTRAP */ 
+
+.card-container {
+		display:flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+.card-body {
+	background-color: rgb(255, 162, 227);
+}
+
+.card-body h5 {
+	background-color: #690253;
+	color: #fff;
+	display:flex;
+	justify-content: center;
+}
+
+.card {
+	border: 4px solid #000;
+	box-shadow: 2px 2px 10px #000;
+	margin: 7px;
+}
+
+.card-img-top {
+	width: 225px;
+	height: 225px;
+}
+
+
+.article-recordar {
+	background-color:  #f77e7e;
+}
+
+
+.h4-recordar {
+	display:flex;
+	justify-content: center;
+	background-color: #f83636;
+	color: #fff;
+}
+
+.div-recordar {
+		display:flex;
+		justify-content: center;
+		padding: 8px;
+}
+
+
+.img-recordar {
+	width: 225px;
+	height: 225px;
+}
+
+
+@media screen and (max-width: 480px) {
+	.div-recordar {
+		display:flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+}
+
+/* Chubut */
+
+.img-container-chubut {
+	display: flex;
+	justify-content: flex-start; 
+}
+
+.img-item1-chubut {
+	width:80%;
+	height: 275px;
+	object-fit: cover;
+}
+
+.img-item2-chubut {
+	width: 20%;
+	height: 275px;
+}
+
+.ul-peces-chubut {
+	display: flex;
+	justify-content: space-around;
+	flex-direction:row;
+}
+
+.li-peces-chubut {
+	display: flex;
+	justify-content:space-between;
+	background-color: #000;
+	color: #fff;
+}
+
+@media screen and (max-width: 914px) {
+	.ul-peces-chubut {
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+}
+
+.img-container-peces {
+	display:grid;
+	grid-template-columns: 
+	repeat(auto-fit,minmax(150px, 1fr));
+	gap: 32px;
+	margin: 9px;
+}
+
+.img-item-peces {
+	border-radius: 8px;
+	width: 240px;
+	height: 225px;
+	margin: 3px;
+	border: 2px solid #000;
+	box-shadow: 1px 1px 6px #000;
+	object-fit:fill;
+}
+
+/* NEUQUEN Y RIO NEGRO */
+
+/* IMAGENES NEUQUEN */
+
+.img-container-neuquen {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.img-item1-neuquen {
+	width:75%;
+	height: 290px;
+	object-fit: cover;
+}
+
+.img-item2-neuquen{
+	width: 50%;
+	height: 290px;
+	object-fit: scale-down;
+}
+
+.div-neuquen-rio-lugar {
+	display: flex;
+}
+
+.img-neuquen-rio {
+	width: 475px;
+	height: 475px;
+	border: 2px solid #000;
+	box-shadow: 1px 1px 6px #000;
+	object-fit: cover;
+}
+
+.parrafo-container {
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #424141;
+	padding: 17px;
+}
+
+.parrafo-container p {
+	font-family: 'Bree Serif', serif;
+	font-size: 21px;
+	color: #c4c1c1;
+}
+
+.parrafo-container h4 {
+	font-family: 'Alfa Slab One', serif;
+	background-color: #000000;
+	color: #fff;
+}
+
+@media screen and (max-width: 966px) {
+
+	.div-neuquen-rio-lugar {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.img-neuquen-rio {
+		display: flex;
+		width: 100%;
+		height: 40vh;
+	}
+
+	.img-2 {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	
+}
