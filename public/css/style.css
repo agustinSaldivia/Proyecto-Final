@@ -110,7 +110,7 @@ body {
 	flex-direction: column;
 }
 
-@media screen and (max-width: 642px) {
+@media screen and (max-width: 910px) {
 	.form-container {
 		display: flex;
 		flex-direction: column;
