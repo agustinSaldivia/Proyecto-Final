@@ -272,7 +272,7 @@ form textarea {
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 910px) {
 	.div-recordar {
 		display:flex;
 		justify-content: center;
@@ -393,7 +393,7 @@ form textarea {
 	color: #fff;
 }
 
-@media screen and (max-width: 966px) {
+@media screen and (max-width: 1220px) {
 
 	.div-neuquen-rio-lugar {
 		display: flex;
